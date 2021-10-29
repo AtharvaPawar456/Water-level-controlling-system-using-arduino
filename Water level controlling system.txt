@@ -57,7 +57,8 @@ void led_d(){
 		digitalWrite(blue,LOW);
 		digitalWrite(green,LOW);
 		}
-	if(distance<150){
+
+	if(distance>=50 && distance<300){
 		digitalWrite(motor,HIGH);
 		}
   	if(distance>300){
